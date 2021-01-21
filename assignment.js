@@ -9,7 +9,7 @@ function kilometerToMeter(num) {
         return meter;
     }
     else {
-        return 'Sorry ! Please input your exact value.'
+        return 'Sorry ! Please input your exact Number.'
     }
 }
 var result = kilometerToMeter(10);
@@ -19,7 +19,6 @@ console.log(result);
 /* Below budgetCalculator Part */
 
 function budgetCalculator(watch, phone, laptop) {
-
     var watch = watch * 50;
     var phone = phone * 100;
     var laptop = laptop * 500;
@@ -28,7 +27,6 @@ function budgetCalculator(watch, phone, laptop) {
 }
 var totalCost = budgetCalculator(6, 2, 3);
 console.log(totalCost);
-
 
 /* Below HotelCost Part */
 
@@ -67,7 +65,7 @@ function megaFriend(friends) {
     for (var i = 0; i < friends.length; i++) {
         if (friends[i].length > largestWord.length) {
             largestWord = friends[i];
-        }
+        }     
     }
     return largestWord;
 }
